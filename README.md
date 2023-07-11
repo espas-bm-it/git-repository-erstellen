@@ -4,11 +4,10 @@
 
 	echo "# xyz.bm-it.ch" >> README.md (README File erstellen)
 	git init
-	git add .\filename
-	git commit -m "first commit"
-	git branch -M main
+	git add .\filename (alle Files selektieren)
+	git commit -m "Portfolio files added"
 	git remote add origin https://github.com/bmit-xyz/xyz.bm-it.ch.git (URL von Ihren Portfolio Repository)
-	git push -u origin main
+	git push -u origin main (oder master)
 
 ###  Änderungen Stagen, commiten und Branch in Github veröffentlichen 
 
